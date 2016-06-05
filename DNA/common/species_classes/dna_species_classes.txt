@@ -3,3 +3,9 @@
 # Portraits here are one you can choose from in the character creater. For prescripted races they are grabbed straight from the .gfx file. 
 # can specify playable=no to disable people from picking specified class.
 # can specify randomized=no to filter specified class from randomization.
+
+MOL = {
+	portraits = {
+		"dnamol1"
+	}
+}

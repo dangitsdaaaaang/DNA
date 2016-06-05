@@ -1,0 +1,4 @@
+entity = {
+	name = "Squid_entity"
+	pdxmesh = "Squid_mesh"
+}

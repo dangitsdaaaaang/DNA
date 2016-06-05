@@ -1,0 +1,14 @@
+portraits = {
+	dnamol1 = {    
+		entity = "portrait_dna_molluscoid_1_entity" 
+		clothes_selector = "dna_molluscoid_01_clothes" 
+		hair_selector = "dna_molluscoid_01_hair"    
+		greeting_sound = "molluscoid_01_greetings"
+		character_textures = {
+		   "gfx/models/portraits/molluscoid/msq_body_1.dds"
+		   "gfx/models/portraits/molluscoid/msq_body_2.dds"
+		   "gfx/models/portraits/molluscoid/msq_body_3.dds"
+		   "gfx/models/portraits/molluscoid/msq_body_4.dds"
+	   } 
+	}
+}
