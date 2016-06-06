@@ -2,3 +2,8 @@ animation = {
 	name = "dna_molluscoid_1_portrait_placeholder"
 	file = "dna_molluscoid_1_portrait_placeholder.anim"
 }
+
+animation = {
+	name = "dna_molluscoid_1_portrait_spin"
+	file = "dna_molluscoid_1_portrait_spin.anim"
+}

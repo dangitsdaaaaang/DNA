@@ -6,6 +6,10 @@ objectTypes = {
 			id = "idle" 
 			type = "dna_molluscoid_1_portrait_placeholder" 
 		}
+		animation = { 
+			id = "idle2" 
+			type = "dna_molluscoid_1_portrait_spin" 
+		}
 		scale = 1.0
 
 		meshsettings = {
