@@ -23,7 +23,7 @@ dna_molluscoid_01_clothes = {
 	#leader scope
 	leader = { #scientists, generals, admirals, governor
 		"gfx/models/portraits/molluscoid/msq_cloth_1.dds" = { leader_class = scientist }
-		"gfx/models/portraits/molluscoid/msq_cloth_1.dds" = { leader_class = general }
+		"gfx/models/portraits/molluscoid/msq_cloth_4.dds" = { leader_class = general }
 		"gfx/models/portraits/molluscoid/msq_cloth_1.dds" = { leader_class = admiral }
 		"gfx/models/portraits/molluscoid/msq_cloth_1.dds" = { leader_class = governor }
 	}
@@ -32,14 +32,14 @@ dna_molluscoid_01_clothes = {
 	ruler = { #for rulers
 		default = "gfx/models/portraits/molluscoid/msq_cloth_1.dds"
 		
-		"gfx/models/portraits/molluscoid/msq_cloth_1.dds" = { owner = { has_government = military_dictatorship } }
-		"gfx/models/portraits/molluscoid/msq_cloth_1.dds" = { owner = { has_government = martial_empire } }
-		"gfx/models/portraits/molluscoid/msq_cloth_1.dds" = { owner = { has_government = military_junta } }
-		"gfx/models/portraits/molluscoid/msq_cloth_1.dds" = { owner = { has_government = ordered_stratocracy } }
-		"gfx/models/portraits/molluscoid/msq_cloth_1.dds" = { owner = { has_government = military_republic } }
-		"gfx/models/portraits/molluscoid/msq_cloth_1.dds" = { owner = { has_government = martial_demarchy } }
+		"gfx/models/portraits/molluscoid/msq_cloth_4.dds" = { owner = { has_government = military_dictatorship } }
+		"gfx/models/portraits/molluscoid/msq_cloth_4.dds" = { owner = { has_government = martial_empire } }
+		"gfx/models/portraits/molluscoid/msq_cloth_4.dds" = { owner = { has_government = military_junta } }
+		"gfx/models/portraits/molluscoid/msq_cloth_4.dds" = { owner = { has_government = ordered_stratocracy } }
+		"gfx/models/portraits/molluscoid/msq_cloth_4.dds" = { owner = { has_government = military_republic } }
+		"gfx/models/portraits/molluscoid/msq_cloth_4.dds" = { owner = { has_government = martial_demarchy } }
 	
-		"gfx/models/portraits/molluscoid/msq_cloth_1.dds" = { owner = { has_government = pirate_codex } }
+		"gfx/models/portraits/molluscoid/msq_cloth_4.dds" = { owner = { has_government = pirate_codex } }
 	
 	
 		"gfx/models/portraits/molluscoid/msq_cloth_1.dds" = { owner = { has_government = divine_mandate } }
