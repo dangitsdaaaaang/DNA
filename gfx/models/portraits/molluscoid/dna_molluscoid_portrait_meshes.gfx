@@ -1,30 +1,20 @@
 objectTypes = {
 	pdxmesh = {
 		name = "dna_molluscoid_1_portrait_mesh"
-		file = "gfx/models/portraits/molluscoid/dna_molluscoid_1_portrait_mesh.mesh"
+		file = "gfx/models/portraits/molluscoid/dna_molluscoid_1.mesh"
 		animation = { 
 			id = "idle" 
-			type = "dna_molluscoid_1_portrait_placeholder" 
+			type = "dna_molluscoid_1_portrait_idle" 
 		}
 		animation = { 
-			id = "idle2" 
-			type = "dna_molluscoid_1_portrait_spin" 
+			id = "sad" 
+			type = "dna_molluscoid_1_portrait_sad" 
+		}
+		animation = { 
+			id = "sad2" 
+			type = "dna_molluscoid_1_portrait_angry" 
 		}
 		scale = 1.0
-
-		meshsettings = {
-			name = "bodyShape"
-			index = 0
-			texture_diffuse = "msq_body_1.dds"
-			shader = "PdxMeshPortrait"
-		}
-
-		meshsettings = {
-			name = "HeadShape"
-			index = 0
-			texture_diffuse = "msq_body_1.dds"
-			shader = "PdxMeshPortrait"
-		}
 
 		meshsettings = {
 			name = "ventsShape"
@@ -32,28 +22,14 @@ objectTypes = {
 			texture_diffuse = "msq_body_1.dds"
 			shader = "PdxMeshPortrait"
 		}
-
+		
 		meshsettings = {
-			name = "R_MandibleShape"
+			name = "bodyShape"
 			index = 0
 			texture_diffuse = "msq_body_1.dds"
 			shader = "PdxMeshPortrait"
 		}
-
-		meshsettings = {
-			name = "L_MandibleShape"
-			index = 0
-			texture_diffuse = "msq_body_1.dds"
-			shader = "PdxMeshPortrait"
-		}
-
-		meshsettings = {
-			name = "ClothesShape"
-			index = 0
-			texture_diffuse = "msq_cloth_1.dds"
-			shader = "PdxMeshPortraitClothes"
-		}
-
+		
 		meshsettings = {
 			name = "Hair_Shape1"
 			index = 0
@@ -87,6 +63,58 @@ objectTypes = {
 			index = 0
 			texture_diffuse = "msq_hair3_1.dds"
 			shader = "PdxMeshPortraitHair"
+		}
+
+		meshsettings = {
+			name = "HeadShape"
+			index = 0
+			texture_diffuse = "msq_body_1.dds"
+			shader = "PdxMeshPortrait"
+		}
+
+		meshsettings = {
+			name = "R_MandibleShape"
+			index = 0
+			texture_diffuse = "msq_body_1.dds"
+			shader = "PdxMeshPortrait"
+		}
+
+		meshsettings = {
+			name = "L_MandibleShape"
+			index = 0
+			texture_diffuse = "msq_body_1.dds"
+			shader = "PdxMeshPortrait"
+		}
+		
+		meshsettings = {
+			name = "Clothes_1Shape"
+			index = 0
+			texture_diffuse = "msq_cloth_1.dds"
+			shader = "PdxMeshPortraitClothes"
+		}
+
+		meshsettings = {
+			name = "Clothes_Shape2"
+			index = 0
+			texture_diffuse = "msq_cloth_2.dds"
+			texture_specular = "msq_cloth_2.dds"
+			shader = "PdxMeshPortraitClothes"
+		}
+
+		meshsettings = {
+			name = "Clothes_Shape3"
+			index = 0
+			texture_diffuse = "msq_cloth_3.dds"
+			texture_specular = "msq_cloth_2.dds"
+			shader = "PdxMeshPortraitClothes"
+		}
+
+		meshsettings = {
+			name = "Clothes_Shape4"
+			index = 0
+			texture_diffuse = "msq_cloth_4.dds"
+			texture_specular = "msq_cloth_2.dds"
+			shader = "PdxMeshPortraitClothes"
 		}
 	}
 }

@@ -1,9 +1,14 @@
 animation = {
-	name = "dna_molluscoid_1_portrait_placeholder"
-	file = "dna_molluscoid_1_portrait_placeholder.anim"
+	name = "dna_molluscoid_1_portrait_idle"
+	file = "dna_molluscoid_1_Happy.anim"
 }
 
 animation = {
-	name = "dna_molluscoid_1_portrait_spin"
-	file = "dna_molluscoid_1_portrait_spin.anim"
+	name = "dna_molluscoid_1_portrait_sad"
+	file = "dna_molluscoid_1_Sad.anim"
+}
+
+animation = {
+	name = "dna_molluscoid_1_portrait_angry"
+	file = "dna_molluscoid_1_Idle_1.anim"
 }
